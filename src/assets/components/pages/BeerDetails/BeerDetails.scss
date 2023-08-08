@@ -1,0 +1,45 @@
+.beer-details {
+
+  padding: 32px;
+
+
+  .img-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-block-end: 24px;
+    
+    .product-img {
+      max-width: 50%;
+    }
+  }
+
+  .text {
+    h2 {
+      font-size: 3.25rem;
+      font-weight: 500;
+    }
+
+    .tagline {
+      color: #FFCA41;
+      font-size: 1.125rem;
+      font-weight: 900;
+      margin-block-end: 24px;
+    }
+
+    .stats {
+      color: rgba(51, 51, 51, 0.50);
+      font-size: 0.813rem;
+      margin-block-end: 8px;
+
+
+      p {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+
+    .description {
+      margin-block-end: 28px;
+    }
+  }
+}
